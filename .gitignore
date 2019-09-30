@@ -1,0 +1,49 @@
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/.env
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+.idea/*
+.DS_Store
+.env
+node_modules/
+client/node_modules
+data
+.VSCode
+
+#Window
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.bat
+
+#Linux
+.directory
+*.sh
+
+client/package-lock.json
+*.log
+*.gz
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
